@@ -22,8 +22,6 @@ public class Enemy : MonoBehaviour
         {
             _animator.SetTrigger("Attack");
             _audio.Play();
-            Debug.Log(collision.gameObject.name + " died!");
-            collision.collider.enabled = false;
         }
     }
 }

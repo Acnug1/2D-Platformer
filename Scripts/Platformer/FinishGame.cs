@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FinishGameTrigger : MonoBehaviour
+public class FinishGame : MonoBehaviour
 {
     private Coin[] _coins;
     private int _countCoin;
